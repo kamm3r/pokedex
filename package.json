@@ -1,7 +1,6 @@
 {
   "name": "pokedex-nextjs-tailwind",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -14,8 +13,8 @@
     "react-icons": "^4.1.0"
   },
   "devDependencies": {
-    "postcss": "^8.2.4",
-    "postcss-preset-env": "^6.7.0",
-    "tailwindcss": "^2.0.2"
+    "autoprefixer": "^10.3.2",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
   }
 }

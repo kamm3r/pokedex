@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/layout';
-import Link from 'next/Link';
+import Link from 'next/link';
 import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from 'react-icons/md';
 
 export default function pokemon({ pokeman }) {
