@@ -5,10 +5,10 @@ export default function layout({ title, children }) {
   return (
     <div className='bg-gray-300'>
       <Head>
-        <title>{title}</title>
+        <title>{title.replace(/^\w/, (c) => c.toUpperCase())}</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <main className='container mx-auto max-w-xl pt-8 min-h-screen'>
+      <main className='container mx-auto max-w-2xl pt-8 min-h-screen'>
         {children}
       </main>
     </div>
