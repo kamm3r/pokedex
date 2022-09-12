@@ -33,8 +33,8 @@ const ImageItem = ({
 export default function Pokemon({ id }: { id: string }) {
   const evoId = '7';
   const { data, status } = trpc.poke.getPokemon.useQuery({ id, evoId });
-  console.log('pokemon', data);
-  console.log('pokemon evolution', data?.evolution);
+  // console.log('pokemon', data);
+  // console.log('pokemon evolution', data?.evolution);
   return (
     <Layout title={data?.name.replace(/^\w/, (c: any) => c.toUpperCase())}>
       <Suspense fallback={null}>
