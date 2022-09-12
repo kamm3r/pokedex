@@ -7,6 +7,11 @@ npm install
 npm run dev
 ```
 
-- [] Ported to typescipt
-- [] Make Prettier
-- ...
+```
+pnpm install
+pnpm dev
+```
+
+- [x] Ported to typescipt
+- [] fix evolution path
+- [] add different generations to it and filters
