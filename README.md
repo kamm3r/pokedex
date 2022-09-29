@@ -15,3 +15,4 @@ pnpm dev
 - [x] Ported to typescipt
 - [] fix evolution path
 - [] add different generations to it and filters
+- [] add search 
