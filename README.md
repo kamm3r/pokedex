@@ -15,4 +15,5 @@ pnpm dev
 - [x] Ported to typescipt
 - [] fix evolution path
 - [] add different generations to it and filters
-- [] add search 
+- [] add search
+- [] slow page loads by caching the data
